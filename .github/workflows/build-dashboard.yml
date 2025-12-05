@@ -3,13 +3,6 @@ name: Build and Push saleor-dashboard (dev)
 on:
   push:
     branches: [ main ]
-    paths:
-      - 'Dockerfile'
-      - '**/*.js'
-      - '**/*.ts'
-      - '**/*.tsx'
-      - 'package.json'
-      - 'package-lock.json'
 
 jobs:
   build-and-push:
